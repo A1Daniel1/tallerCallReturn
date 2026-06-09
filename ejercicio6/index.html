@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Hola Mundo!</title>
+    <style>
+        /* Estilos generales para centrar todo en la pantalla */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        /* Contenedor principal con efecto de cristal y sombra */
+        .contenedor-hola {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 3rem 5rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            text-align: center;
+            animation: aparecer 1.2s ease-out;
+        }
+
+        /* Estilo del texto "Hola Mundo" */
+        h1 {
+            font-size: 4rem;
+            margin: 0 0 0.5rem 0;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+
+        /* Estilo del subtítulo */
+        p {
+            font-size: 1.2rem;
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        /* Animación para que aparezca suavemente al cargar */
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor-hola">
+        <h1>¡Hola Mundo!</h1>
+        <p>Este html lo hice en chatgpt porque me dio pereza</p>
+    </div>
+
+</body>
+
+</html>

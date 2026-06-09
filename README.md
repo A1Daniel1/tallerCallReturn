@@ -41,3 +41,33 @@ Para este ejercicio lo que se hizo es solo crear un servidor el cual tomaba un n
 
 ## Ejercicio 4
 
+---
+
+## Cómo ejecutar los ejercicios
+
+Cada ejercicio se encuentra en su respectiva carpeta y puede ser ejecutado de la siguiente manera:
+
+### Ejercicio 1: URLReader
+```bash
+javac ejercicio1/URLReader.java
+java -cp ejercicio1 URLReader
+```
+
+### Ejercicio 2: SaveURL
+```bash
+javac ejercicio2/SaveURL.java
+java -cp ejercicio2 SaveURL
+```
+
+### Ejercicio 3: EchoServer
+```bash
+javac ejercicio3/EchoServer.java
+java -cp ejercicio3 EchoServer
+```
+
+### Ejercicio 4: CalculatorServer
+```bash
+javac ejercicio4/CalculatorServer.java
+java -cp ejercicio4 CalculatorServer
+```
+
