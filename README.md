@@ -28,3 +28,16 @@ Para el ejercicio 2 se tomo la estructura que teniamos en el ejercicio 1, se uti
 Ya luego tenemos dentro de nuestro mismo directorio un archivo html el cual podemos abrir en el navegador, por ejemplo este de google
 
 ![alt text](image-3.png)
+
+---
+
+## Ejercicio 3
+
+Para este ejercicio lo que se hizo es solo crear un servidor el cual tomaba un numero y nos retornaba el cuadrado de este. Basicamente toma la peticion y la direccion del recurso es el numero a calcular
+
+![alt text](image-4.png)
+
+---
+
+## Ejercicio 4
+
