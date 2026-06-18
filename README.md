@@ -27,15 +27,15 @@ For example, using the URL:
 `https://www.ejemplo.com:8080/docs/indice.html?usuario=daniel#seccion1`
 
 The application extracts and prints the Protocol, Authority, Host, Port, Path, Query, File, and Reference/Anchor components.
-*(Visual output reference: `image-1.png`)*
+*(Visual output reference: `imagenes/image-1.png`)*
 
 ## Exercise 2: Save URL Content to HTML
 Building on Exercise 1, this program prompts the user via the console to input a URL, reads its full HTML source code using an `InputStreamReader`, and saves/writes the downloaded content into a local file called `resultado.html` using a `PrintWriter`. This file can then be opened directly in any web browser.
-*(Visual output references: `image-2.png`, `image-3.png`)*
+*(Visual output references: `imagenes/image-2.png`, `imagenes/image-3.png`)*
 
 ## Exercise 3: Square Calculation Echo Server
 A TCP socket-based server that listens on port `35000`. It processes incoming text requests, extracts a number from the input or query path, computes the square of that number, and returns the calculated result to the client.
-*(Visual output reference: `image-4.png`)*
+*(Visual output reference: `imagenes/image-4.png`)*
 
 ## Exercise 4: Trigonometric HTTP Server
 An extension of the custom HTTP server implementation. It parses incoming HTTP GET requests looking for specific URI routes such as `/sin?val=...` or `/cos?val=...`. It dynamically extracts the value parameter, calculates its mathematical sine or cosine using `Math.sin()` or `Math.cos()`, and responds with a fully formatted HTML webpage showing the calculated result.
